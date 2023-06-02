@@ -740,16 +740,11 @@ form label {
 #fh5co-started,
 #fh5co-footer,
 #fh5co-event,
-#fh5co-couple-story,
 #fh5co-couple,
 #fh5co-gallery,
 .fh5co-section {
   padding: 3em 0;
   clear: both;
-}
-
-#fh5co-couple {
-  height: 820px;
 }
 
 @media screen and (max-width: 768px) {
@@ -759,15 +754,10 @@ form label {
   #fh5co-started,
   #fh5co-footer,
   #fh5co-event,
-  #fh5co-couple-story,
   #fh5co-couple,
   #fh5co-gallery,
   .fh5co-section {
     padding: 3em 0;
-  }
-
-  #fh5co-couple {
-    height: 100%;
   }
 }
 
@@ -779,7 +769,7 @@ form label {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {
@@ -807,7 +797,7 @@ form label {
 
 @media screen and (max-width: 768px) {
   .heart {
-    top: 31em;
+    margin: 100px auto 100px auto;
   }
 }
 
@@ -855,17 +845,10 @@ form label {
   .couple-half .groom,
   .couple-half .bride {
     width: 100%;
-    /* height: 140px; */
-  }
-
-  .couple-half .bride {
-    margin-top: 150px;
   }
 
   .couple-half .groom img,
   .couple-half .bride img {
-    /* width: 120px;
-    height: 120px; */
     margin: 0 auto;
   }
 }
@@ -879,7 +862,6 @@ form label {
 }
 
 @media screen and (max-width: 480px) {
-
   .couple-half .groom,
   .couple-half .bride {
     margin-left: 0;
